@@ -183,6 +183,9 @@ vertical-align: middle;
 .article3 li:nth-child(8){
      margin-right:0%;
 }
+.article3 li:nth-child(4n+1) {
+    clear: both;
+}
 .article3 h4 {
     font-size:15px;
     line-height: 1.5;
