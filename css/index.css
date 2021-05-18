@@ -111,12 +111,17 @@ body {
 }
 .article2 .saleimg > img {
      width:160px;
+     padding-top: 30px;
     }
-.article2 .salebox { display: inline;
-position: relative;}
+.article2 .salebox { 
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
 
 .article2 .saleimg { 
     float:left; padding:0px 20px 0px 0px;
+    
 }
 .article2 .saleimg:nth-child(1) {
     padding:0px 20px 0px 230px;
@@ -124,14 +129,16 @@ position: relative;}
 .article2 .saleimg > p {
     text-align: center; padding:10px;
 }
-.article2 .salego {position: relative;
+.article2 .salego {
+    position: relative;
 font-family:sans-serif;
 font-weight: 300;
 color:#696969;
 font-size: 18px;
+display: inline-block;
+vertical-align: middle;
 }
 .article2 .salego p {
-    padding-top: 70px;
     padding-left: 30px;
 }
 /* .article2 .salego img { position: absolute; 
@@ -146,8 +153,8 @@ font-size: 18px;
     border-radius:50%;
     margin:0; transition:all 0.4s ;
     position: absolute; 
-    top:50%; left:100%;
-    transform: translate(-100%,0%);
+    top:50%; right:-400px;
+    transform: translate(0%,-50%);
     text-align: center;
     padding:20px;
 }
